@@ -31,6 +31,8 @@ public class AlertHandle {
 		
 		alert=new Alerts(driver);
 		alert.clickOnSimpleAlert("I am an alert box!");
+		alert.clickOnSimpleAlert("I am an alert box! new changes");
+		System.out.println("This is the Git new dev changes");
 		driver.close();
 		}
 	
