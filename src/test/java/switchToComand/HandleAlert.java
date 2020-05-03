@@ -9,6 +9,8 @@ public class HandleAlert {
 	{
 		System.setProperty("webdriver.chrome.driver",
 				"D:\\eclipseworkspace\\HandleElement\\driver\\32\\chromedriver.exe");
+		
+		System.out.println("test git pull");
 	}
 
 }

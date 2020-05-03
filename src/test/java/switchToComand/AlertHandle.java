@@ -39,6 +39,8 @@ public class AlertHandle {
 		
 		alert=new Alerts(driver);
 		alert.handleConfirmationAlertForAccept("Press a Button !");
+		alert.handleConfirmationAlertForAccept("Press a Button 1!");
+		alert.handleConfirmationAlertForAccept("Press a Button !2");
 		driver.close();
 		}
 	
