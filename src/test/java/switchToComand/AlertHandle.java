@@ -61,6 +61,22 @@ public class AlertHandle {
 		}
 	
 	@Test(enabled = true)
+	public void sendTextMsgforAlertboxAccept1() {
+		
+		alert=new Alerts(driver);
+		alert.handleAlertforTextAccept("Hi Automation Engineer");
+		driver.close();
+		}
+	
+	@Test(enabled = true)
+	public void sendTextMsgforAlertboxAccept2() {
+		
+		alert=new Alerts(driver);
+		alert.handleAlertforTextAccept("Hi Automation Engineer");
+		driver.close();
+		}
+	
+	@Test(enabled = true)
 	public void sendTextMsgforAlertboxDismiss() {
 		
 		alert=new Alerts(driver);

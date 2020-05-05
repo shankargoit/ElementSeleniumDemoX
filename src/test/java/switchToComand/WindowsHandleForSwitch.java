@@ -36,5 +36,23 @@ public class WindowsHandleForSwitch {
 		
 		
 	}
+	
+	@Test
+	public void openNewTabWindow1()
+	{
+		handle=new WindowsHandle(driver);
+		handle.windowNavigationforNewTab();
+		
+		
+	}
+	
+	@Test
+	public void openNewTabWindow2()
+	{
+		handle=new WindowsHandle(driver);
+		handle.windowNavigationforNewTab();
+		
+		
+	}
 
 }
